@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>smpe-admin</artifactId>
+        <artifactId>fruit-admin</artifactId>
         <groupId>marchsoft</groupId>
         <version>1.0.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>smpe-log</artifactId>
+    <artifactId>fruit-log</artifactId>
     <name>日志模块</name>
     <description>日志模块</description>
 
@@ -17,7 +17,7 @@
 
         <dependency>
             <groupId>marchsoft</groupId>
-            <artifactId>smpe-common</artifactId>
+            <artifactId>fruit-common</artifactId>
             <version>${project.parent.version}</version>
             <optional>true</optional>
         </dependency>

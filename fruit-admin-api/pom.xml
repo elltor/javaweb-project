@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>marchsoft</groupId>
-    <artifactId>smpe-admin</artifactId>
+    <artifactId>fruit-admin</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-RELEASE</version>
     <modules>
-        <module>smpe-common</module>
-        <module>smpe-system</module>
-        <module>smpe-log</module>
+        <module>fruit-common</module>
+        <module>fruit-system</module>
+        <module>fruit-log</module>
     </modules>
 
-    <name>SMPE-ADMIN 后台管理</name>
-    <description>SMPE是一个基于EL-ADMIN、Spring Boot 2.1.0、JDK1.8+ 、 Mybatis Plus、JWT + Spring
+    <name>FRUIT-ADMIN 后台管理</name>
+    <description>FRUIT是一个基于EL-ADMIN、Spring Boot 2.1.0、JDK1.8+ 、 Mybatis Plus、JWT + Spring
         Security、Redis、Vue的前后端分离的后台管理系统
     </description>
     <url>https://github.com/sanyueruanjian/smpe-admin</url>

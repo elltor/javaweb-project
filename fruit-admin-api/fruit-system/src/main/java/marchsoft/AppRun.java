@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 @MapperScan({
         "marchsoft.modules.system.mapper",
         "marchsoft.modules.quartz.mapper",
+        "marchsoft.modules.fruit.mapper",
         "marchsoft.mapper"
 })
 public class AppRun {
