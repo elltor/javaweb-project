@@ -37,7 +37,7 @@ public class FruitProduct extends BasicModel<FruitProduct> {
 
     private LocalDateTime pickTime;
 
-    private String phaseId;
+    private Long phaseId;
 
     private Long qualityId;
 
